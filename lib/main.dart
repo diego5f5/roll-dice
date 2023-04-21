@@ -13,7 +13,12 @@ class RollDiceApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+          colors: [
+            Color.fromARGB(255, 34, 0, 120),
+            Color.fromARGB(255, 0, 12, 54),
+          ],
+        ),
       ),
     );
   }
